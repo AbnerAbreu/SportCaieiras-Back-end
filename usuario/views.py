@@ -3,6 +3,6 @@ from usuario.models import Usuario
 from usuario.serializers import UsuarioSerializer
 
 
-class ColaboradorViewSet(viewsets.ModelViewSet):
+class UsuarioViewSet(viewsets.ModelViewSet):
     queryset = Usuario.objects.all()
     serializer_class = UsuarioSerializer
