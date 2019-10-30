@@ -21,7 +21,7 @@ from rest_framework import routers
 from usuario.views import UsuarioViewSet
 from colaborador.views import ColaboradorViewSet
 
-router = routers.DefaultRouter.urls()
+router = routers.DefaultRouter()
 router.register(r'usuarios', UsuarioViewSet)
 router.register(r'colaboradores', ColaboradorViewSet)
 
