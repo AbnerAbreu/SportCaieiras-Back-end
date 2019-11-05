@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'usuario',
     'colaborador',
+    'eventos',
     'corsheaders',
+    
 ]
 
 MIDDLEWARE = [
@@ -52,7 +54,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
-    'django.middleware.common.CommonMiddleware',
 
 ]
 
