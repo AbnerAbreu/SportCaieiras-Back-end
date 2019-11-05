@@ -5,4 +5,4 @@ from colaborador.models import Colaborador
 class ColaboradorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Colaborador
-        fields = ['id','nome','idade','email','senha','telefone','endereco']
+        fields = ['id','nome','idade','email','telefone',]
