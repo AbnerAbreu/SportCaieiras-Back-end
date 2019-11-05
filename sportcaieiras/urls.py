@@ -20,10 +20,14 @@ from django.urls import path, include
 from rest_framework import routers
 from usuario.views import UsuarioViewSet
 from colaborador.views import ColaboradorViewSet
+from eventos.views import EventosViewSet
+
 
 router = routers.DefaultRouter()
 router.register(r'usuarios', UsuarioViewSet)
 router.register(r'colaboradores', ColaboradorViewSet)
+router.register(r'eventos', EventosViewSet)
+
 
 urlpatterns = [
     path('', include(router.urls)),

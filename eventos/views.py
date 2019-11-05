@@ -1,6 +1,6 @@
 from rest_framework import viewsets
 from eventos.models import Eventos
-from Eventos.serializers import EventosSerializer
+from eventos.serializers import EventosSerializer
 
 
 class EventosViewSet(viewsets.ModelViewSet):
