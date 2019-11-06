@@ -6,5 +6,5 @@ class Usuario(models.Model):
     nome = models.CharField(max_length=255)
     idade = models.CharField(max_length=255)
     email = models.CharField(max_length=255)
-    telefone = models.CharField(max_length=255)
+    genero = models.CharField(max_length=255)
 
