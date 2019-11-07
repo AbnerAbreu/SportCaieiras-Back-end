@@ -5,7 +5,6 @@ from django.db import models
 
 
 class Colaborador(models.Model):
-    id = models.IntegerField(primary_key=True)
     nome = models.CharField(max_length=255)
     email = models.CharField(max_length=255)
     idade = models.CharField(max_length=255)
